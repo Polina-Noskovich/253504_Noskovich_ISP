@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:models="clr-namespace:_253504_Noskovich.UI.ViewModels"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:entities="clr-namespace:_253504_Noskovich.Domain.Entities;assembly=253504_Noskovich.Domain"
+             xmlns:converter="clr-namespace:_253504_Noskovich.UI.ValueConverters"
+             x:DataType="models:BrandsListViewModel"
+             x:Class="_253504_Noskovich.UI.Pages.BrandsList"
+             Title="BrandsList">
+    <ContentPage.Behaviors>
+        <toolkit:EventToCommandBehavior 
+            EventName="Loaded"
+            Command="{Binding UpdateBrandsListCommand}"/>
+    </ContentPage.Behaviors>
+    <ContentPage.Resources>
+        <converter:CountryYearConverter x:Key="countryYearConverter"/>
+        <converter:DescriptionConverter x:Key="descriptionConverter"/>
+        <converter:PriceToColorValueConverter x:Key="priceToColorValueConverter"/>
+    </ContentPage.Resources>
+    <ContentPage.ToolbarItems>
+        <ToolbarItem
+            IconImageSource="dot_net.png"
+            Command="{Binding AddBrandPageCommand}"
+            CommandParameter="{Binding Brands}"
+            />
+        <ToolbarItem
+            IconImageSource="dot_net.png"
+            Command="{Binding AddProductPageCommand}"
+            CommandParameter="{Binding Brands}"
+            />
+    </ContentPage.ToolbarItems>
+    <VerticalStackLayout>
+        <Picker
+            x:Name="PickerBrands"
+            ItemsSource="{Binding Brands}"
+            ItemDisplayBinding="{Binding Name}"
+            SelectedItem="{Binding SelectedBrand}"
+            Title="Выберите бренд косметики"
+            HeightRequest="40"
+            WidthRequest="350"
+            BackgroundColor="WhiteSmoke">
+            <Picker.Behaviors>
+                <toolkit:EventToCommandBehavior 
+                    EventName="SelectedIndexChanged"
+                    Command="{Binding UpdateProductsListCommand}"/>
+            </Picker.Behaviors>
+        </Picker>
+        <VerticalStackLayout
+            WidthRequest="350"
+            Padding="5"
+            BackgroundColor="GhostWhite">
+            <HorizontalStackLayout>
+                <Label Text="{Binding SelectedBrand, Converter={StaticResource countryYearConverter}}"/>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout>
+                <Label Text="{Binding SelectedBrand, Converter={StaticResource descriptionConverter}}"/>
+            </HorizontalStackLayout>
+        </VerticalStackLayout>
+        <CollectionView
+            x:Name="listProducts"
+            ItemsSource="{Binding Products}">
+            
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="entities:Product">
+                    <Border             
+                        Stroke="{Binding Cost, Converter={StaticResource priceToColorValueConverter}}"
+                        StrokeThickness="1.5">
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="20"/>
+                        </Border.StrokeShape>
+                        <Border.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type models:BrandsListViewModel}},  Path=ShowDetailsCommand}"  CommandParameter= "{Binding}"/>
+                        </Border.GestureRecognizers>
+                        <HorizontalStackLayout>
+                            <Image
+                                MaximumHeightRequest="100"
+                                MinimumWidthRequest="90"
+                                Source="{Binding ImagePath}"
+                                />
+                            <Label
+                                WidthRequest="230"
+                                Margin="20"
+                                FontSize="20"
+                                Text="{Binding Name}"
+                                HorizontalOptions="EndAndExpand"/>
+                        </HorizontalStackLayout>
+                    </Border>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </VerticalStackLayout>
+</ContentPage> 

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="_253504_Noskovich.UI.Pages.ProductDetails"
+             xmlns:models="clr-namespace:_253504_Noskovich.UI.ViewModels"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:entities="clr-namespace:_253504_Noskovich.Domain.Entities;assembly=253504_Noskovich.Domain"
+             xmlns:converter="clr-namespace:_253504_Noskovich.UI.ValueConverters"
+             Title="ProductDetails"
+             x:DataType="models:ProductDetailsViewModel">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem
+            IconImageSource="dot_net.png"
+            Command="{Binding EditProductItemCommand}"
+            CommandParameter="{Binding Product}"
+            />
+        <ToolbarItem
+            IconImageSource="dot_net.png"
+            Command="{Binding DeleteProductItemCommand}"
+            CommandParameter="{Binding Product}"
+            />
+    </ContentPage.ToolbarItems>
+    <VerticalStackLayout
+        Spacing="20">
+        <Label
+            Text="Детали о изделии"
+            HorizontalOptions="CenterAndExpand"
+            FontSize="Large"/>
+        <Image
+            MaximumHeightRequest="200"
+            MaximumWidthRequest="200"
+            Source="{Binding Product.ImagePath}"/>
+        <HorizontalStackLayout
+            Spacing="20">
+            <Label
+                Text="{Binding Product.Name}"
+                FontSize="Small"
+                />
+        </HorizontalStackLayout>
+        <HorizontalStackLayout>
+            <Label
+                Text="{Binding Product.Description}"
+                FontSize="Small"
+            />
+        </HorizontalStackLayout>
+        <HorizontalStackLayout>
+            <Label
+                Text="Цена: "
+                FontSize="Small"/>
+            <Label
+                Text="{Binding Product.Cost}"
+                FontSize="Small"
+                />
+        </HorizontalStackLayout>
+        <HorizontalStackLayout>
+            <Label
+                Text="Объем: "
+                FontSize="Small"/>
+            <Label
+                Text="{Binding Product.Volume}"
+                FontSize="Small"
+                />
+        </HorizontalStackLayout>
+        <HorizontalStackLayout>
+            <Label
+                Text="Дата изготовления: "
+                FontSize="Small"/>
+            <Label
+                Text="{Binding Product.CreatedAt.Day}"
+                FontSize="Small"
+            />
+            <Label
+                Text="."
+                FontSize="Small"
+            />
+            <Label
+                Text="{Binding Product.CreatedAt.Month}"
+                FontSize="Small"
+            />
+            <Label
+                Text="."
+                FontSize="Small"
+            />
+            <Label
+                Text="{Binding Product.CreatedAt.Year}"
+                FontSize="Small"
+            />
+        </HorizontalStackLayout>
+
+
+    </VerticalStackLayout>
+</ContentPage>

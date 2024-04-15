@@ -1,0 +1,77 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = true
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = _253504_Noskovich.UI
+build_property.ProjectDir = D:\c#\253504_Noskovich\253504_Noskovich.UI\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[D:/c\#/253504_Noskovich/253504_Noskovich.UI/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = _253504_Noskovich.UI.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[D:/c\#/253504_Noskovich/253504_Noskovich.UI/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = _253504_Noskovich.UI.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[D:/c\#/253504_Noskovich/253504_Noskovich.UI/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = _253504_Noskovich.UI.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[D:/c\#/253504_Noskovich/253504_Noskovich.UI/Pages/AddBrand.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = _253504_Noskovich.UI.Pages.AddBrand.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\AddBrand.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\AddBrand.xaml
+
+[D:/c\#/253504_Noskovich/253504_Noskovich.UI/Pages/AddProduct.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = _253504_Noskovich.UI.Pages.AddProduct.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\AddProduct.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\AddProduct.xaml
+
+[D:/c\#/253504_Noskovich/253504_Noskovich.UI/Pages/BrandsList.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = _253504_Noskovich.UI.Pages.BrandsList.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\BrandsList.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\BrandsList.xaml
+
+[D:/c\#/253504_Noskovich/253504_Noskovich.UI/Pages/EditProduct.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = _253504_Noskovich.UI.Pages.EditProduct.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\EditProduct.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\EditProduct.xaml
+
+[D:/c\#/253504_Noskovich/253504_Noskovich.UI/Pages/ProductDetails.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = _253504_Noskovich.UI.Pages.ProductDetails.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\ProductDetails.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\ProductDetails.xaml
+
+[D:/c\#/253504_Noskovich/253504_Noskovich.UI/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = _253504_Noskovich.UI.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[D:/c\#/253504_Noskovich/253504_Noskovich.UI/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = _253504_Noskovich.UI.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml

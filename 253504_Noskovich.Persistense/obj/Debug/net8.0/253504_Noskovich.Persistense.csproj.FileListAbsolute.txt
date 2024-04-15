@@ -1,0 +1,15 @@
+D:\c#\253504_Noskovich\253504_Noskovich.Persistense\bin\Debug\net8.0\253504_Noskovich.Persistense.deps.json
+D:\c#\253504_Noskovich\253504_Noskovich.Persistense\bin\Debug\net8.0\253504_Noskovich.Persistense.dll
+D:\c#\253504_Noskovich\253504_Noskovich.Persistense\bin\Debug\net8.0\253504_Noskovich.Persistense.pdb
+D:\c#\253504_Noskovich\253504_Noskovich.Persistense\bin\Debug\net8.0\253504_Noskovich.Domain.dll
+D:\c#\253504_Noskovich\253504_Noskovich.Persistense\bin\Debug\net8.0\253504_Noskovich.Domain.pdb
+D:\c#\253504_Noskovich\253504_Noskovich.Persistense\obj\Debug\net8.0\253504_Noskovich.Persistense.csproj.AssemblyReference.cache
+D:\c#\253504_Noskovich\253504_Noskovich.Persistense\obj\Debug\net8.0\253504_Noskovich.Persistense.GeneratedMSBuildEditorConfig.editorconfig
+D:\c#\253504_Noskovich\253504_Noskovich.Persistense\obj\Debug\net8.0\253504_Noskovich.Persistense.AssemblyInfoInputs.cache
+D:\c#\253504_Noskovich\253504_Noskovich.Persistense\obj\Debug\net8.0\253504_Noskovich.Persistense.AssemblyInfo.cs
+D:\c#\253504_Noskovich\253504_Noskovich.Persistense\obj\Debug\net8.0\253504_Noskovich.Persistense.csproj.CoreCompileInputs.cache
+D:\c#\253504_Noskovich\253504_Noskovich.Persistense\obj\Debug\net8.0\253504_Noskovich.Persistense.csproj.CopyComplete
+D:\c#\253504_Noskovich\253504_Noskovich.Persistense\obj\Debug\net8.0\253504_Noskovich.Persistense.dll
+D:\c#\253504_Noskovich\253504_Noskovich.Persistense\obj\Debug\net8.0\refint\253504_Noskovich.Persistense.dll
+D:\c#\253504_Noskovich\253504_Noskovich.Persistense\obj\Debug\net8.0\253504_Noskovich.Persistense.pdb
+D:\c#\253504_Noskovich\253504_Noskovich.Persistense\obj\Debug\net8.0\ref\253504_Noskovich.Persistense.dll

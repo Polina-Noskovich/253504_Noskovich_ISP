@@ -1,0 +1,275 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>253504_Noskovich.UI</name>
+    </assembly>
+    <members>
+        <member name="T:_253504_Noskovich.UI.ViewModels.AddBrandViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:_253504_Noskovich.UI.ViewModels.AddBrandViewModel.Name">
+            <inheritdoc cref="F:_253504_Noskovich.UI.ViewModels.AddBrandViewModel.name"/>
+        </member>
+        <member name="P:_253504_Noskovich.UI.ViewModels.AddBrandViewModel.Description">
+            <inheritdoc cref="F:_253504_Noskovich.UI.ViewModels.AddBrandViewModel.description"/>
+        </member>
+        <member name="P:_253504_Noskovich.UI.ViewModels.AddBrandViewModel.Country">
+            <inheritdoc cref="F:_253504_Noskovich.UI.ViewModels.AddBrandViewModel.country"/>
+        </member>
+        <member name="P:_253504_Noskovich.UI.ViewModels.AddBrandViewModel.Year">
+            <inheritdoc cref="F:_253504_Noskovich.UI.ViewModels.AddBrandViewModel.year"/>
+        </member>
+        <member name="F:_253504_Noskovich.UI.ViewModels.AddBrandViewModel.enterCommand">
+            <summary>The backing field for <see cref="P:_253504_Noskovich.UI.ViewModels.AddBrandViewModel.EnterCommand"/>.</summary>
+        </member>
+        <member name="P:_253504_Noskovich.UI.ViewModels.AddBrandViewModel.EnterCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:_253504_Noskovich.UI.ViewModels.AddBrandViewModel.Enter"/>.</summary>
+        </member>
+        <member name="T:_253504_Noskovich.UI.ViewModels.AddProductViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:_253504_Noskovich.UI.ViewModels.AddProductViewModel.Name">
+            <inheritdoc cref="F:_253504_Noskovich.UI.ViewModels.AddProductViewModel.name"/>
+        </member>
+        <member name="P:_253504_Noskovich.UI.ViewModels.AddProductViewModel.Cost">
+            <inheritdoc cref="F:_253504_Noskovich.UI.ViewModels.AddProductViewModel.cost"/>
+        </member>
+        <member name="P:_253504_Noskovich.UI.ViewModels.AddProductViewModel.Volume">
+            <inheritdoc cref="F:_253504_Noskovich.UI.ViewModels.AddProductViewModel.volume"/>
+        </member>
+        <member name="P:_253504_Noskovich.UI.ViewModels.AddProductViewModel.Description">
+            <inheritdoc cref="F:_253504_Noskovich.UI.ViewModels.AddProductViewModel.description"/>
+        </member>
+        <member name="P:_253504_Noskovich.UI.ViewModels.AddProductViewModel.CreatedAt">
+            <inheritdoc cref="F:_253504_Noskovich.UI.ViewModels.AddProductViewModel.createdAt"/>
+        </member>
+        <member name="P:_253504_Noskovich.UI.ViewModels.AddProductViewModel.BrandId">
+            <inheritdoc cref="F:_253504_Noskovich.UI.ViewModels.AddProductViewModel.brandId"/>
+        </member>
+        <member name="P:_253504_Noskovich.UI.ViewModels.AddProductViewModel.ImagePath">
+            <inheritdoc cref="F:_253504_Noskovich.UI.ViewModels.AddProductViewModel.imagePath"/>
+        </member>
+        <member name="P:_253504_Noskovich.UI.ViewModels.AddProductViewModel.SelectedBrand">
+            <inheritdoc cref="F:_253504_Noskovich.UI.ViewModels.AddProductViewModel.selectedBrand"/>
+        </member>
+        <member name="F:_253504_Noskovich.UI.ViewModels.AddProductViewModel.enterCommand">
+            <summary>The backing field for <see cref="P:_253504_Noskovich.UI.ViewModels.AddProductViewModel.EnterCommand"/>.</summary>
+        </member>
+        <member name="P:_253504_Noskovich.UI.ViewModels.AddProductViewModel.EnterCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:_253504_Noskovich.UI.ViewModels.AddProductViewModel.Enter"/>.</summary>
+        </member>
+        <member name="F:_253504_Noskovich.UI.ViewModels.AddProductViewModel.updateBrandsListCommand">
+            <summary>The backing field for <see cref="P:_253504_Noskovich.UI.ViewModels.AddProductViewModel.UpdateBrandsListCommand"/>.</summary>
+        </member>
+        <member name="P:_253504_Noskovich.UI.ViewModels.AddProductViewModel.UpdateBrandsListCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:_253504_Noskovich.UI.ViewModels.AddProductViewModel.UpdateBrandsList"/>.</summary>
+        </member>
+        <member name="F:_253504_Noskovich.UI.ViewModels.AddProductViewModel.selectFileCommand">
+            <summary>The backing field for <see cref="P:_253504_Noskovich.UI.ViewModels.AddProductViewModel.SelectFileCommand"/>.</summary>
+        </member>
+        <member name="P:_253504_Noskovich.UI.ViewModels.AddProductViewModel.SelectFileCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:_253504_Noskovich.UI.ViewModels.AddProductViewModel.SelectFile"/>.</summary>
+        </member>
+        <member name="T:_253504_Noskovich.UI.ViewModels.BrandsListViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:_253504_Noskovich.UI.ViewModels.BrandsListViewModel.SelectedBrand">
+            <inheritdoc cref="F:_253504_Noskovich.UI.ViewModels.BrandsListViewModel.selectedBrand"/>
+        </member>
+        <member name="F:_253504_Noskovich.UI.ViewModels.BrandsListViewModel.updateBrandsListCommand">
+            <summary>The backing field for <see cref="P:_253504_Noskovich.UI.ViewModels.BrandsListViewModel.UpdateBrandsListCommand"/>.</summary>
+        </member>
+        <member name="P:_253504_Noskovich.UI.ViewModels.BrandsListViewModel.UpdateBrandsListCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:_253504_Noskovich.UI.ViewModels.BrandsListViewModel.UpdateBrandsList"/>.</summary>
+        </member>
+        <member name="F:_253504_Noskovich.UI.ViewModels.BrandsListViewModel.updateProductsListCommand">
+            <summary>The backing field for <see cref="P:_253504_Noskovich.UI.ViewModels.BrandsListViewModel.UpdateProductsListCommand"/>.</summary>
+        </member>
+        <member name="P:_253504_Noskovich.UI.ViewModels.BrandsListViewModel.UpdateProductsListCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:_253504_Noskovich.UI.ViewModels.BrandsListViewModel.UpdateProductsList"/>.</summary>
+        </member>
+        <member name="F:_253504_Noskovich.UI.ViewModels.BrandsListViewModel.showDetailsCommand">
+            <summary>The backing field for <see cref="P:_253504_Noskovich.UI.ViewModels.BrandsListViewModel.ShowDetailsCommand"/>.</summary>
+        </member>
+        <member name="P:_253504_Noskovich.UI.ViewModels.BrandsListViewModel.ShowDetailsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:_253504_Noskovich.UI.ViewModels.BrandsListViewModel.ShowDetails(_253504_Noskovich.Domain.Entities.Product)"/>.</summary>
+        </member>
+        <member name="F:_253504_Noskovich.UI.ViewModels.BrandsListViewModel.addBrandPageCommand">
+            <summary>The backing field for <see cref="P:_253504_Noskovich.UI.ViewModels.BrandsListViewModel.AddBrandPageCommand"/>.</summary>
+        </member>
+        <member name="P:_253504_Noskovich.UI.ViewModels.BrandsListViewModel.AddBrandPageCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:_253504_Noskovich.UI.ViewModels.BrandsListViewModel.AddBrandPage"/>.</summary>
+        </member>
+        <member name="F:_253504_Noskovich.UI.ViewModels.BrandsListViewModel.addProductPageCommand">
+            <summary>The backing field for <see cref="P:_253504_Noskovich.UI.ViewModels.BrandsListViewModel.AddProductPageCommand"/>.</summary>
+        </member>
+        <member name="P:_253504_Noskovich.UI.ViewModels.BrandsListViewModel.AddProductPageCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:_253504_Noskovich.UI.ViewModels.BrandsListViewModel.AddProductPage"/>.</summary>
+        </member>
+        <member name="T:_253504_Noskovich.UI.ViewModels.EditProductViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:_253504_Noskovich.UI.ViewModels.EditProductViewModel.Product">
+            <inheritdoc cref="F:_253504_Noskovich.UI.ViewModels.EditProductViewModel.product"/>
+        </member>
+        <member name="P:_253504_Noskovich.UI.ViewModels.EditProductViewModel.Name">
+            <inheritdoc cref="F:_253504_Noskovich.UI.ViewModels.EditProductViewModel.name"/>
+        </member>
+        <member name="P:_253504_Noskovich.UI.ViewModels.EditProductViewModel.Cost">
+            <inheritdoc cref="F:_253504_Noskovich.UI.ViewModels.EditProductViewModel.cost"/>
+        </member>
+        <member name="P:_253504_Noskovich.UI.ViewModels.EditProductViewModel.Volume">
+            <inheritdoc cref="F:_253504_Noskovich.UI.ViewModels.EditProductViewModel.volume"/>
+        </member>
+        <member name="P:_253504_Noskovich.UI.ViewModels.EditProductViewModel.Description">
+            <inheritdoc cref="F:_253504_Noskovich.UI.ViewModels.EditProductViewModel.description"/>
+        </member>
+        <member name="P:_253504_Noskovich.UI.ViewModels.EditProductViewModel.CreatedAt">
+            <inheritdoc cref="F:_253504_Noskovich.UI.ViewModels.EditProductViewModel.createdAt"/>
+        </member>
+        <member name="P:_253504_Noskovich.UI.ViewModels.EditProductViewModel.ImagePath">
+            <inheritdoc cref="F:_253504_Noskovich.UI.ViewModels.EditProductViewModel.imagePath"/>
+        </member>
+        <member name="P:_253504_Noskovich.UI.ViewModels.EditProductViewModel.BrandId">
+            <inheritdoc cref="F:_253504_Noskovich.UI.ViewModels.EditProductViewModel.brandId"/>
+        </member>
+        <member name="P:_253504_Noskovich.UI.ViewModels.EditProductViewModel.SelectedBrand">
+            <inheritdoc cref="F:_253504_Noskovich.UI.ViewModels.EditProductViewModel.selectedBrand"/>
+        </member>
+        <member name="F:_253504_Noskovich.UI.ViewModels.EditProductViewModel.enterCommand">
+            <summary>The backing field for <see cref="P:_253504_Noskovich.UI.ViewModels.EditProductViewModel.EnterCommand"/>.</summary>
+        </member>
+        <member name="P:_253504_Noskovich.UI.ViewModels.EditProductViewModel.EnterCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:_253504_Noskovich.UI.ViewModels.EditProductViewModel.Enter"/>.</summary>
+        </member>
+        <member name="F:_253504_Noskovich.UI.ViewModels.EditProductViewModel.selectFileCommand">
+            <summary>The backing field for <see cref="P:_253504_Noskovich.UI.ViewModels.EditProductViewModel.SelectFileCommand"/>.</summary>
+        </member>
+        <member name="P:_253504_Noskovich.UI.ViewModels.EditProductViewModel.SelectFileCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:_253504_Noskovich.UI.ViewModels.EditProductViewModel.SelectFile"/>.</summary>
+        </member>
+        <member name="F:_253504_Noskovich.UI.ViewModels.EditProductViewModel.updateBrandsListCommand">
+            <summary>The backing field for <see cref="P:_253504_Noskovich.UI.ViewModels.EditProductViewModel.UpdateBrandsListCommand"/>.</summary>
+        </member>
+        <member name="P:_253504_Noskovich.UI.ViewModels.EditProductViewModel.UpdateBrandsListCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:_253504_Noskovich.UI.ViewModels.EditProductViewModel.UpdateBrandsList"/>.</summary>
+        </member>
+        <member name="T:_253504_Noskovich.UI.ViewModels.ProductDetailsViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:_253504_Noskovich.UI.ViewModels.ProductDetailsViewModel.Product">
+            <inheritdoc cref="F:_253504_Noskovich.UI.ViewModels.ProductDetailsViewModel.product"/>
+        </member>
+        <member name="F:_253504_Noskovich.UI.ViewModels.ProductDetailsViewModel.editProductItemCommand">
+            <summary>The backing field for <see cref="P:_253504_Noskovich.UI.ViewModels.ProductDetailsViewModel.EditProductItemCommand"/>.</summary>
+        </member>
+        <member name="P:_253504_Noskovich.UI.ViewModels.ProductDetailsViewModel.EditProductItemCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:_253504_Noskovich.UI.ViewModels.ProductDetailsViewModel.EditProductItem"/>.</summary>
+        </member>
+        <member name="F:_253504_Noskovich.UI.ViewModels.ProductDetailsViewModel.deleteProductItemCommand">
+            <summary>The backing field for <see cref="P:_253504_Noskovich.UI.ViewModels.ProductDetailsViewModel.DeleteProductItemCommand"/>.</summary>
+        </member>
+        <member name="P:_253504_Noskovich.UI.ViewModels.ProductDetailsViewModel.DeleteProductItemCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:_253504_Noskovich.UI.ViewModels.ProductDetailsViewModel.DeleteProductItem"/>.</summary>
+        </member>
+        <member name="F:_253504_Noskovich.UI.ViewModels.ProductDetailsViewModel.setImageCommand">
+            <summary>The backing field for <see cref="P:_253504_Noskovich.UI.ViewModels.ProductDetailsViewModel.SetImageCommand"/>.</summary>
+        </member>
+        <member name="P:_253504_Noskovich.UI.ViewModels.ProductDetailsViewModel.SetImageCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:_253504_Noskovich.UI.ViewModels.ProductDetailsViewModel.SetImage"/>.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Name">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Name" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Description">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Description" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Country">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Country" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Year">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Year" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Cost">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Cost" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Volume">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Volume" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.CreatedAt">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "CreatedAt" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.BrandId">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "BrandId" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.ImagePath">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "ImagePath" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SelectedBrand">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SelectedBrand" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Product">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Product" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Name">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Name" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Description">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Description" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Country">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Country" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Year">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Year" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Cost">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Cost" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Volume">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Volume" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.CreatedAt">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "CreatedAt" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.BrandId">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "BrandId" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.ImagePath">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "ImagePath" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SelectedBrand">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SelectedBrand" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Product">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Product" generated properties.</summary>
+        </member>
+    </members>
+</doc>
