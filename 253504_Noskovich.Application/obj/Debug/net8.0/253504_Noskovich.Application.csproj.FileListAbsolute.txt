@@ -8,6 +8,7 @@ D:\c#\253504_Noskovich\253504_Noskovich.Application\obj\Debug\net8.0\253504_Nosk
 D:\c#\253504_Noskovich\253504_Noskovich.Application\obj\Debug\net8.0\253504_Noskovich.Application.AssemblyInfoInputs.cache
 D:\c#\253504_Noskovich\253504_Noskovich.Application\obj\Debug\net8.0\253504_Noskovich.Application.AssemblyInfo.cs
 D:\c#\253504_Noskovich\253504_Noskovich.Application\obj\Debug\net8.0\253504_Noskovich.Application.csproj.CoreCompileInputs.cache
+D:\c#\253504_Noskovich\253504_Noskovich.Application\obj\Debug\net8.0\253504_Noskovich.Application.sourcelink.json
 D:\c#\253504_Noskovich\253504_Noskovich.Application\obj\Debug\net8.0\253504_Noskovich.Application.csproj.CopyComplete
 D:\c#\253504_Noskovich\253504_Noskovich.Application\obj\Debug\net8.0\253504_Noskovich.Application.dll
 D:\c#\253504_Noskovich\253504_Noskovich.Application\obj\Debug\net8.0\refint\253504_Noskovich.Application.dll

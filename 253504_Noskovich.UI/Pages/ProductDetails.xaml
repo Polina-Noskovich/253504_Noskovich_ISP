@@ -10,12 +10,12 @@
              x:DataType="models:ProductDetailsViewModel">
     <ContentPage.ToolbarItems>
         <ToolbarItem
-            IconImageSource="dot_net.png"
+            IconImageSource="dotnet_bot.png"
             Command="{Binding EditProductItemCommand}"
             CommandParameter="{Binding Product}"
             />
         <ToolbarItem
-            IconImageSource="dot_net.png"
+            IconImageSource="dotnet_bot.png"
             Command="{Binding DeleteProductItemCommand}"
             CommandParameter="{Binding Product}"
             />

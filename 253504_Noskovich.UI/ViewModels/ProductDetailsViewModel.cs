@@ -49,7 +49,7 @@ public partial class ProductDetailsViewModel : ObservableObject
         {
             return;
         }
-        var dirPath = "D:\\c#\\253504_Noskovich\\253504_Kolesnikov.UI\\Images\\";
+        var dirPath = "D:\\c#\\253504_Noskovich\\253504_Noskovich.UI\\Images\\";
         var pathToImage = Path.Combine(dirPath, $"{(int)Product.Id}.{fileType}");
         pathToImage = Path.Combine(FileSystem.Current.AppDataDirectory, pathToImage);
         using Stream inputStream = await pickedImage.OpenReadAsync();

@@ -20,12 +20,12 @@
     </ContentPage.Resources>
     <ContentPage.ToolbarItems>
         <ToolbarItem
-            IconImageSource="dot_net.png"
+            IconImageSource="dotnet_bot.png"
             Command="{Binding AddBrandPageCommand}"
             CommandParameter="{Binding Brands}"
             />
         <ToolbarItem
-            IconImageSource="dot_net.png"
+            IconImageSource="dotnet_bot.png"
             Command="{Binding AddProductPageCommand}"
             CommandParameter="{Binding Brands}"
             />

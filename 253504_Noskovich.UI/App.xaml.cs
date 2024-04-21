@@ -1,11 +1,12 @@
-﻿using _253504_Noskovich.UI.ViewModels;
-namespace _253504_Noskovich.UI.Pages;
-
-public partial class AddProduct : ContentPage
+﻿namespace _253504_Noskovich.UI
 {
-    public AddProduct(AddProductViewModel addProductViewModel)
+    public partial class App : Microsoft.Maui.Controls.Application
     {
-        InitializeComponent();
-        BindingContext = addProductViewModel;
+        public App()
+        {
+            InitializeComponent();
+
+            MainPage = new AppShell();
+        }
     }
 }

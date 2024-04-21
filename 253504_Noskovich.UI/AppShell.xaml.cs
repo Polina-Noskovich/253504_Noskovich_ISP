@@ -9,7 +9,7 @@ namespace _253504_Noskovich.UI
             Routing.RegisterRoute(nameof(ProductDetails), typeof(ProductDetails));
             Routing.RegisterRoute(nameof(AddBrand), typeof(AddBrand));
             Routing.RegisterRoute(nameof(BrandsList), typeof(BrandsList));
-            Routing.RegisterRoute(nameof(AddProduct), typeof(Product));
+            Routing.RegisterRoute(nameof(AddProduct), typeof(AddProduct));
             Routing.RegisterRoute(nameof(EditProduct), typeof(EditProduct));
         }
     }

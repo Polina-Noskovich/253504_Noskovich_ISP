@@ -5,6 +5,7 @@ D:\c#\253504_Noskovich\253504_Noskovich.Domain\obj\Debug\net8.0\253504_Noskovich
 D:\c#\253504_Noskovich\253504_Noskovich.Domain\obj\Debug\net8.0\253504_Noskovich.Domain.AssemblyInfoInputs.cache
 D:\c#\253504_Noskovich\253504_Noskovich.Domain\obj\Debug\net8.0\253504_Noskovich.Domain.AssemblyInfo.cs
 D:\c#\253504_Noskovich\253504_Noskovich.Domain\obj\Debug\net8.0\253504_Noskovich.Domain.csproj.CoreCompileInputs.cache
+D:\c#\253504_Noskovich\253504_Noskovich.Domain\obj\Debug\net8.0\253504_Noskovich.Domain.sourcelink.json
 D:\c#\253504_Noskovich\253504_Noskovich.Domain\obj\Debug\net8.0\253504_Noskovich.Domain.dll
 D:\c#\253504_Noskovich\253504_Noskovich.Domain\obj\Debug\net8.0\refint\253504_Noskovich.Domain.dll
 D:\c#\253504_Noskovich\253504_Noskovich.Domain\obj\Debug\net8.0\253504_Noskovich.Domain.pdb
